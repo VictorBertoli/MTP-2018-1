@@ -1,5 +1,5 @@
 /*
-	Victor Henrique Bértoli da Silva
+	Victor Henrique BÃ©rtoli da Silva
 	Matricula: 11721EBI015
 */
 
@@ -19,7 +19,7 @@ int main()
 	{
 		case 1:
 			printf("\nBinario para Decimal; \nDigite o numero: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 				i++;
@@ -40,7 +40,7 @@ int main()
 			return 0;
 		case 2:
 			printf("\nBinario para Hexadecimal; \n Digite o numero: ");
-			scanf("%s", &num_bin);
+			scanf("%s", num_bin);
 			getchar();
 			for(i = 0; num_bin[i] != '\0'; i++);
 				i--;
@@ -62,7 +62,7 @@ int main()
 			return 0;
 		case 3:
 			printf("\nHexadecimal para Decimal;\nDigite o numero hexadecimal: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 					i++;
@@ -192,7 +192,7 @@ int main()
 				return 0;		
 		case 7:
 			printf("\nOctal para Decimal\nDigite o numero: ");
-			scanf("%s", &num);
+			scanf("%s", num);
 			getchar();
 			while(num[i] != '\0'){
 				i++;
