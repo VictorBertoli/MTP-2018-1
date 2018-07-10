@@ -1,4 +1,4 @@
-//Victor Henrique Bértoli da Silva
+//Victor Henrique BÃ©rtoli da Silva
 //11721EBI015
 
 #include <stdio.h>
@@ -49,9 +49,9 @@ void pesquisa(struct produto vet_produto[], int i){
 
 int main(){
 	struct produto vet_produto[2];
-	int opcao;
+	int opcao, produto, num_produto=0;
 	do{
-		printf("\n1 - Consultar\n2 - Cadastrar novo\n3 - Carregar de arquivo para memeoria\n4 - Salvar memoria em arquivo\n0 - Encerra");
+		printf("\n1 - Consultar\n2 - Cadastrar novo\n3 - Carregar de arquivo para memoria\n4 - Salvar memoria em arquivo\n0 - Encerra");
 		printf("\n\nDigite a opcao: ");
 		scanf("%d", &opcao);
 		getchar();
