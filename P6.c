@@ -1,11 +1,11 @@
 /*
-VICTOR HENRIQUE BÉRTOLI DA SILVA
+VICTOR HENRIQUE BÃ‰RTOLI DA SILVA
 11721EBI015
 */
 
 #include <stdio.h>
 
-int Soma (int *pi, int *pf)      //pi = posição inicial e pf = posição final
+int Soma (int *pi, int *pf)      //pi = posiÃ§Ã£o inicial e pf = posiÃ§Ã£o final
 {
 	return (*pf) + ((pf==pi) ? 0 : Soma(pi, pf-1));
 }
@@ -35,6 +35,6 @@ int main ()
 	p_f = vet+k-1;
 	soma = Soma (p_i, p_f);
 	media = Divisao (soma, k);
-	printf ("A media eh: %.0f", media);
+	printf ("A media eh: %f", media);
 	return 0;
 }
